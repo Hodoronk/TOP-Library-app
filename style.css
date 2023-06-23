@@ -1,0 +1,78 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+header{
+    border-bottom:4px groove gainsboro;
+    padding-top:1em;
+    padding-left:1em;
+    padding-bottom:1em;
+    display:grid;
+    margin-bottom: 0.8em;
+    
+    
+}
+.main{
+    height:60vh;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+#statistics{
+    width: 100vh;
+}
+
+.descr{
+    border:1px solid black;
+    display:flex;
+    flex-direction:column;
+    padding:0.5em;
+    width:15em;
+    border-radius:5%;
+    box-shadow: 2px 3px;
+}
+#innerform{
+    border:1px solid blue;
+    padding:1em;
+    
+}
+
+form{
+    color:blue;
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+}
+.formelement{
+    margin-top:1em;
+}
+input{
+    border-radius: 100px;
+}
+label{
+    color:brown;
+    font-size: 1.2em;
+}
+#submit_button{
+    margin-top:2em;
+    width:15em;
+    border-radius: 100px;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse:collapse;
+    margin-top: 2vh;
+    box-shadow: 2px
+    
+
+}
+th,tr, td{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px 20px;
+    width:100vh;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <h1>Library</h1>
+    <h1>Test</h1>
+</header>
+
+<div class="main">
+    <div class="descr">
+        <h1>Welcome to Book Keeper!</h1>
+        <h2>We have a small favor to ask you</h2>
+    </div>
+    <div class = 'descr' id = 'statistics'>
+        <h2>You have read <span id = 'bookStat'>___</span> books</h2>
+        <h2>You have read <span id = 'pageStat'>____</span> pages total</h2>
+        <h2>Average book size: <span id = 'average'></span></h2>
+
+    </div>
+    <div class = 'descr' id = 'innerform'>
+    <form action="" method="post">
+            <h1>Add a book</h1>
+
+            <div class="formelement">
+                <label for="auth_name">Book Name: </label>
+                <input type="text" id="auth_name" maxlength = 32 id ='input'>
+            </div>
+            
+            <div class="formelement">
+            <label for="book_name">Author name: </label>
+            <input type="text" id="book_name" maxlength = 32 id ='input'>
+            </div>
+
+            <div class="formelement">
+            <label for="page_num">Number of pages: </label>
+            <input type="number" id="page_num" id ='input'>
+            </div>
+
+            <div class="formelement">
+            <label for="date_start">Date started: </label>
+            <input type="date" id="date_start" id ='input'>
+            </div>
+
+            <div class="formelement">
+            <label for="date_finish">Date finished: </label>
+            <input type="date" id="date_finish" id ='input'>
+            </div>
+
+            <div class="formelement">
+            <label for="status_q">Read/Not read: </label>
+            <input type="checkbox" id="status_q" id ='input'>
+            </div>
+
+            <button type="submit" id="submit_button">Submit</button>
+    </form>
+    </div>
+</div>
+<div class="maintwo">
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Pages</th>
+                <th>Date Started</th>
+                <th>Date Finished</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+
+    </table>
+
+</div>
+
+</body>
+</html>
