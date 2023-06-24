@@ -11,32 +11,53 @@ header{
     padding-top:1em;
     padding-left:1em;
     padding-bottom:1em;
-    display:grid;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
     margin-bottom: 0.8em;
-    
-    
+    background: linear-gradient(90deg, rgba(130,190,191,1) 15%, rgba(70,130,149,1) 61%, rgba(110,136,213,1) 100%);
+}
+#logbox{
+    display:flex;
+    flex-direction:row;
+    width:50em;
+    justify-content: space-around;
+}
+a{
+    border:1px solid rgb(77, 75, 75);
+    padding:10px;
+    border-radius:50px;
+    box-shadow: 2px 2px;
+    background-color: brown;
+    color:white;
 }
 .main{
     height:60vh;
     display:flex;
     flex-direction:row;
     justify-content:space-around;
+    background: linear-gradient(90deg, rgba(224,208,11,1) 15%, rgba(214,213,79,1) 50%, rgba(203,193,50,1) 61%, rgba(235,151,32,1) 100%);
+}
+body{
+    background: linear-gradient(90deg, rgba(224,208,11,1) 15%, rgba(214,213,79,1) 50%, rgba(203,193,50,1) 61%, rgba(235,151,32,1) 100%);
 }
 #statistics{
     width: 100vh;
 }
 
 .descr{
-    border:1px solid black;
+    
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6194852941176471) 100%);
+    color:white;
     display:flex;
     flex-direction:column;
     padding:0.5em;
     width:15em;
-    border-radius:5%;
-    box-shadow: 2px 3px;
+    border:2px solid black;
+
 }
 #innerform{
-    border:1px solid blue;
+    border:1px solid black
     padding:1em;
     
 }
