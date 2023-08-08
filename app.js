@@ -93,17 +93,6 @@ submitter.addEventListener('click', function(){
     addBookToLibrary(bookNameInput, authorNameInput, pageNumInput, statusInput);
     statMaker(pageNumInput);
 
-    
-
-    console.log(
-        `Book Name: ${bookNameInput},
-        Author Name: ${authorNameInput},
-        Page Number: ${pageNumInput},
-        Date Started: ${dateStartInput},
-        Date Finished: ${dateFinishInput},
-        Status: ${statusInput}`
-        );
-
         createRow(book_name.value, auth_name.value, page_num.value, date_start.value, date_finish.value, stat.value);
             book_name.value = '', auth_name.value = '', page_num.value = '', date_start.value = '', date_finish.value = '', stat.value = 'off';
         arrayLoop();
